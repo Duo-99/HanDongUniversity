@@ -11,7 +11,7 @@ class item:
     def calculate(self):
         return self.price * self.quantity * self.pay_rate
 
-item1 = item('Laptop', 'Lenovo',  500, 2)
+item1 = item(2303, 'Lenovo',  500, 2)
 item2 = item('Phone', 'Samsung', 250, 4)
 item2.pay_rate = 0.7
 print(item1.calculate())
