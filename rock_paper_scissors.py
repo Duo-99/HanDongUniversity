@@ -51,7 +51,8 @@ if AI_input == 1 and get_input == 2:
 elif AI_input == 2 and get_input == 0:
     print("You Win!")
 elif AI_input == 0 and get_input == 1:
-    print("You Win!")   
+    print("You Win!")
+       
 elif AI_input == get_input:
     print("Draw!")
 else:

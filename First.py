@@ -25,17 +25,23 @@
 # print("Get size of number : {} bytes.".format(sys.getsizeof(x)))
     
     
-line1 = ["⬜️","️⬜️","️⬜️"]
-line2 = ["⬜️","⬜️","️⬜️"]
-line3 = ["⬜️️","⬜️️","⬜️️"]
-map = [line1, line2, line3]
-print("Hiding your treasure! X marks the spot.")
-position = input() # Where do you want to put the treasure?
-# Your code below
-letter = position[0].lower()
-abc = ["a", "b", "c"]
-letter_index = abc.index(letter)
-number_index = int(position[1]) - 1
-map[number_index][letter_index] = "X"
+# line1 = ["⬜️","️⬜️","️⬜️"]
+# line2 = ["⬜️","⬜️","️⬜️"]
+# line3 = ["⬜️️","⬜️️","⬜️️"]
+# map = [line1, line2, line3]
+# print("Hiding your treasure! X marks the spot.")
+# position = input() # Where do you want to put the treasure?
+# # Your code below
+# letter = position[0].lower()
+# abc = ["a", "b", "c"]
+# letter_index = abc.index(letter)
+# number_index = int(position[1]) - 1
+# map[number_index][letter_index] = "X"
 
-print(f"{line1}\n{line2}\n{line3}")
+# print(f"{line1}\n{line2}\n{line3}")
+my_list = [10,20,30,40]
+for i in my_list:
+    print(i)
+    
+for x,y in enumerate(my_list):
+    print(x,y)
